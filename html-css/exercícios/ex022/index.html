@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+        div.quadrado {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: gray;
+        }
+
+        div#q1 {
+            background: url('imagens/pattern003.png');
+        }
+
+        div#q2 {
+            background: linear-gradient(to right, black, white);
+        }
+
+        div#q3 {
+            background: radial-gradient(black, white);
+        }
+    </style>
+</head>
+<body>
+<div id="q1" class="quadrado"></div>
+<div id="q2" class="quadrado"></div>
+<div id="q3" class="quadrado"></div>
+</body>
+</html>
